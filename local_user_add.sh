@@ -32,6 +32,6 @@ echo "${PASSWD}" | passwd "${USERNAME}" --stdin
 # verify if last command succeded
 if [[ "${?}"  -ne 0 ]]
 then
-    echo 'user not created!'
+    echo 'password not set!'
     exit 1
 fi
