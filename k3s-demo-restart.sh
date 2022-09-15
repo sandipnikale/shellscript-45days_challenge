@@ -12,7 +12,7 @@ then
       exit 1
 fi
 
-echo "Starting K3s deployment...... "
+echo "Starting K3s Pod/Deployments...... "
 
 # Please verify if you have access to this file or you can skip below if running as root.
 sudo chmod 644 /etc/rancher/k3s/k3s.yaml 2>&1 > /dev/null
